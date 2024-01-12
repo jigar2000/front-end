@@ -1,0 +1,73 @@
+*{font-family:'Poppins',sans-serif;}
+
+.v1{height:700px;width:100%;}
+.images21{background-image:url(photos/recycled-shoe-store-cta-image-bg.jpg);background-position: center ;background-size: cover;height:700px;}
+.img2{margin-left:400px;margin-top:30px ;}
+
+
+.box2{height:100px ;}
+.box4{height:150px;}
+.box5{height:25px;}
+.box6{height:150px;}
+.box11{height:220px;}
+
+.f1{font-size:80px;}
+.f2{font-size:32px;}
+.f3{font-size:20px;}
+.f4{font-size:19px;color:#979a9b;}
+.f5{font-size:25px;}
+.f6{font-size:19px;color:#979a9b }
+.f7{font-size:45px;}
+.f8{font-size:20px;color:#979a9b;}
+.f9{font-size:30px;}
+.f10{font-size:19px ;color:#979a9b;}
+.f11{font-size:21px;color: white;}
+.f12{font-size:18px;color:#979a9b}
+.f16{font-size:5vw;color: white;}
+.f17{font-size:25px; ;}
+.f18{font-size:20px;color: #9a9b97;}
+.f20{color:black ;}
+.f20:hover{color:orange ;}
+.f21{font-size:15px;color: #9a9b97;;}
+
+.b7{height:50px;width:160px;background:white;color: black;border: none;}
+.b7:hover{height:50px;width:160px;background:rgb(37, 37, 37);color: rgb(255, 255, 255);border: none;}
+.b8{height:50px;width:170px;background:white;color: black;border: none;}
+.b8:hover{height:50px;width:170px;background:rgb(37, 37, 37);color: rgb(255, 255, 255);border: none;}
+.b9{border: none;}
+.cursor{cursor: pointer;}
+
+
+
+
+
+@media(max-width:500px){
+    
+    .v1{height:300px;width:100%;}
+
+    .images21{background-image:url(photos/recycled-shoe-store-cta-image-bg.jpg);background-position: center ;background-size: cover;height:320px;}
+    .img1{height:70px;width:70px;}
+    .img2{margin-left:100px;margin-top:-30px ;}
+
+    
+    .box2{height:50px ;}
+    .box4{height:50px;}
+    .box11{height:50px;}
+    
+    .f1{font-size:45px;}
+    .f2{font-size:22px;}
+    .f3{font-size:18px;}
+    .f4{font-size:15px;color:#979a9b;}
+    .f5{font-size:20px;}
+    .f6{font-size:15px;color:#979a9b }
+    .f7{font-size:29px;}
+    .f8{font-size:13px;color:#979a9b;}
+    .f9{font-size:28px;}
+    .f10{font-size:15px ;color:#979a9b;}
+
+    .b7{height:40px;width:100%;background:white;color: black;border: none;}
+    .b7:hover{height:40px;width:100%;background:rgb(37, 37, 37);color: rgb(255, 255, 255);border: none;}
+    .b8{height:40px;width:100%;background:white;color: black;border: none;}
+    .b8:hover{height:40px;width:100%;background:rgb(37, 37, 37);color: rgb(255, 255, 255);border: none;}
+
+}

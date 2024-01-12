@@ -1,0 +1,218 @@
+/* 
+#loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  }
+   */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #myDiv {
+    display: none;
+    
+  }
+  .loader {
+    position: relative;
+  }
+  .load {
+    display: inline-block;
+    height: calc(var(--i) * 15);
+    width: calc(var(--i) * 15);
+    background-color: transparent;
+    position: absolute;
+    border-top: 5px rgb(47, 0, 255) solid;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: turn 2s infinite linear;
+  }
+  
+  .load:nth-child(odd) {
+    animation: turn 2s infinite linear reverse;
+  }
+  
+  @keyframes turn {
+    100% {
+      transform: translate(-50%, -50%) rotateZ(360deg);
+    }
+  }
+
+
+
+
+
+.images1{background-image:url(photos/recycled-shoe-store-hero-image-bg.jpg);background-size: cover;background-position: center;height: 800px;width:100% ;}
+.images2{background-image:url(photos/1.jpg);background-size:cover;background-position: center;height:400px;}
+.images3{background-image:url(photos/2.jpg);background-size:cover;background-position: center;height:400px;}
+.images4{background-image:url(photos/3.jpg);background-size:cover;background-position: center;height:400px;}
+.images5{background-image:url(photos/4.jpg);background-size:cover;background-position: center;height:400px;}
+.images6{background-image:url(photos/5.jpg);background-size:cover;background-position: center;height:400px;}
+.images7{background-image:url(photos/6.jpg);background-size:cover;background-position: center;height:400px;}
+.images8{background-image:url(photos/7.jpg);background-size:cover;background-position: center;height:400px;}
+.images9{background-image:url(photos/8.jpg);background-size:cover;background-position: center;height:400px;}
+.images10{background-image:url(photos/9.jpg);background-size:cover;background-position: center;height:400px;}
+.images11{background-image:url(photos/10.jpg);background-size:cover;background-position: center;height:400px;}
+.images12{background-image:url(photos/11.jpg);background-size:cover;background-position: center;height:400px;}
+.images13{background-image:url(photos/12.jpg);background-size:cover;background-position: center;height:400px;}
+.images14{background-image:url(photos/13.jpg);background-size:cover;background-position: center;height:400px;}
+.images15{background-image:url(photos/14.jpg);background-size:cover;background-position: center;height:400px;}
+.images16{background-image:url(photos/15.jpg);background-size:cover;background-position: center;height:400px;}
+.images17{background-image:url(photos/recycled-shoe-store-shop-men-image-thumbnail.jpg);background-size:cover;background-position: center;height:600px;}
+.images18{background-image:url(photos/recycled-shoe-store-shop-women-image-tumbnail.jpg);background-size:cover;background-position: center;height:600px;}
+.images19{height:320px;width:320px;border-style: dashed;border-width: 2px 2px 2px 2px;border-radius:50% ;}
+.images20{border-radius:50px; }
+.images21{background-image:url(photos/recycled-shoe-store-cta-image-bg.jpg);background-position: center ;background-size: cover;height:700px;}
+.img2{margin-left:400px;margin-top:30px ;}
+
+.f1{font-size:80px ;color: white;}
+.f2{font-size:21px;color: white;}
+.f3{font-size:15px;color: orange;}
+.f4{font-size:46px;}
+.f5{font-size:22px;color:#979a9b;}
+.f6{font-size:45px;padding-top:60px ;}
+.f7{font-size:20px;color:#979a9b;}
+.f8{font-size:20px;color:#979a9b;}
+.f9{font-size:30px;}
+.f10{font-size:20px ;}
+.f11{font-size:15px;color: #9a9b97;}
+.f12{font-size:15px;color: #cab79a;}
+.f13{font-size:40px;color: white ;}
+.f14{font-size:23px;color:#767773 ;}
+.f15{font-size:19px;}
+.f16{font-size:5vw;color: white;}
+.f17{font-size:25px; ;}
+.f18{font-size:20px;color: #9a9b97;}
+.f19{font-size:18px;color: #7a7a79;cursor: pointer;}
+.f19:hover{font-size:18px;color: #494949;cursor: pointer;}
+.f20{color:black ;}
+.f20:hover{color:orange ;}
+.f21{font-size:15px;color: #9a9b97;;}
+
+.box1{height:250px;}
+.box2{height:100px;}
+.box3{width:50px;}
+.box4{height:150px;}
+.box5{height:25px;}
+.box6{height:230px;}
+.box7{height:100px;}
+.box8{height:50px;}
+.box9{height:230px;border:1px solid #cab79a;}
+.box10{height:20px;}
+.box11{height:220px;}
+
+.b1{background:white;height:50px;width:160px;border:none;color: black}
+.b1:hover{background:#262b2c;height:50px;width:160px;border:none;color:white }
+.b2{border: none;border-bottom:2px solid orange;}
+.b2:hover{border: none;border-bottom:2px solid black;}
+.b3{height:50px;width:50px;border-radius:50px;color: white ;background: #6e7051;border:none ;float: right;padding: 20 10px;margin: -1em -1em 0 0;list-style:none outside;}
+.b4{font-size:20px;height:40px;margin-top:350px;border:none;color: #faefe1;}
+.b4:hover{font-size:20px;height:40px;margin-top:350px;border:none;color:white;background: black;}
+.b5{font-size:20px;height:40px;margin-top:316px;border:none;color: #faefe1;}
+.b5:hover{font-size:20px;height:40px;margin-top:316px;border:none;color:white;background: black;}
+.b6{font-size:15px;height:50px;width:160px;background: none;color:white;border: 2px solid white ;}
+.b6:hover{font-size:15px;height:50px;width:160px;background: white;color:black;border: 2px solid white ;}
+.b7{height:50px;width:160px;background:white;color: black;border: none;}
+.b7:hover{height:50px;width:160px;background:rgb(37, 37, 37);color: rgb(255, 255, 255);border: none;}
+.b8{height:50px;width:170px;background:white;color: black;border: none;}
+.b8:hover{height:50px;width:170px;background:rgb(37, 37, 37);color: rgb(255, 255, 255);border: none;}
+.b9{border: none;}
+
+
+
+
+
+
+@media(max-width:500px){
+
+.box1{height:200px;}
+.box2{height:50px ;}
+.box3{width:0px;}    
+.box4{height:50px;}
+.box6{height:80px;}
+.box11{height:50px;}
+
+.b1{background:white;height:40px;width:100%;border:none;color: black;}
+.b1:hover{background:#262b2c;height:40px;width:100%;border:none;color:white;}
+.b4{font-size:15px;height:30px;margin-top:150px;border:none;color: #faefe1;}
+.b4:hover{font-size:15px;height:30px;margin-top:150px;border:none;color:white;background: black;}
+.b5{font-size:15px;height:30px;margin-top:120px;border:none;color: #faefe1;}
+.b5:hover{font-size:15px;height:30px;margin-top:120px;border:none;color:white;background: black;}
+.b6{font-size:15px;height:40px;width:130px;background: none;color:white;border: 2px solid white ;}
+.b6:hover{font-size:15px;height:40px;width:130px;background: white;color:black;border: 2px solid white ;}
+.b7{height:40px;width:100%;background:white;color: black;border: none;}
+.b7:hover{height:40px;width:100%;background:rgb(37, 37, 37);color: rgb(255, 255, 255);border: none;}
+.b8{height:40px;width:100%;background:white;color: black;border: none;}
+.b8:hover{height:40px;width:100%;background:rgb(37, 37, 37);color: rgb(255, 255, 255);border: none;}
+
+.f1{font-size:45px ;color: white;}
+.f2{font-size:15px;color: white;}
+.f3{font-size:15px;color: orange;}
+.f4{font-size:32px;}
+.f5{font-size:15px;color:#979a9b;}
+.f6{font-size:30px;padding-top:60px ;}
+.f7{font-size:16px;color:#979a9b;}
+.f8{font-size:13px;color:#979a9b;}
+.f9{font-size:28px;}
+.f14{font-size:15px;color:#767773 ;}
+.f19{font-size:15px;color: #7a7a79;}
+.f19:hover{font-size:15px;color: #494949;}
+
+.images2{background-image:url(photos/1.jpg);background-size:cover;background-position: center;height:200px;}
+.images3{background-image:url(photos/2.jpg);background-size:cover;background-position: center;height:200px;}
+.images4{background-image:url(photos/3.jpg);background-size:cover;background-position: center;height:200px;}
+.images5{background-image:url(photos/4.jpg);background-size:cover;background-position: center;height:200px;}
+.images6{background-image:url(photos/5.jpg);background-size:cover;background-position: center;height:200px;}
+.images7{background-image:url(photos/6.jpg);background-size:cover;background-position: center;height:200px;}
+.images8{background-image:url(photos/7.jpg);background-size:cover;background-position: center;height:200px;}
+.images9{background-image:url(photos/8.jpg);background-size:cover;background-position: center;height:200px;}
+.images10{background-image:url(photos/9.jpg);background-size:cover;background-position: center;height:200px;}
+.images11{background-image:url(photos/10.jpg);background-size:cover;background-position: center;height:200px;}
+.images12{background-image:url(photos/11.jpg);background-size:cover;background-position: center;height:200px;}
+.images13{background-image:url(photos/12.jpg);background-size:cover;background-position: center;height:200px;}
+.images14{background-image:url(photos/13.jpg);background-size:cover;background-position: center;height:200px;}
+.images15{background-image:url(photos/14.jpg);background-size:cover;background-position: center;height:200px;}
+.images16{background-image:url(photos/15.jpg);background-size:cover;background-position: center;height:200px;}
+.images17{background-image:url(photos/recycled-shoe-store-shop-men-image-thumbnail.jpg);background-size:cover;background-position: center;height:250px;}
+.images18{background-image:url(photos/recycled-shoe-store-shop-women-image-tumbnail.jpg);background-size:cover;background-position: center;height:250px;}
+.images21{background-image:url(photos/recycled-shoe-store-cta-image-bg.jpg);background-position: center ;background-size: cover;height:320px;}
+
+.img1{height:70px;width:70px;}
+.img2{margin-left:100px;margin-top:-30px ;}
+}

@@ -1,0 +1,61 @@
+*{font-family:'Poppins',sans-serif;}
+
+.images21{background-image:url(photos/recycled-shoe-store-cta-image-bg.jpg);background-position: center ;background-size: cover;height:700px;}
+.img2{margin-left:400px;margin-top:30px ;}
+
+.box1{height:50px;width:90%;outline:none ;}
+.box2{height:100px;width:90%  ;}
+.box11{height:220px;}
+.box12{height:100px;}
+
+.f1{font-size:80px;}
+.f2{font-size:20px;}
+.f3{font-size:20px;color: grey;}
+.f4{font-size:18px;color: grey;}
+.f11{font-size:21px;color: white;}
+.f16{font-size:5vw;color: white;}
+.f17{font-size:25px; ;}
+.f18{font-size:20px;color: #9a9b97;}
+.f20{color:black ;}
+.f20:hover{color:orange ;}
+.f21{font-size:15px;color: #9a9b97;;}
+
+.b1{border: none ;border-radius:50px;background:#6e7051;height:20px;width:20px  ;}
+.b2{border: none ;}
+.b3{border: none ;}
+.b4{height:55px;width:200px;background:#4b4d37;color:white;font-size:15px ;border: none;}
+.b4:hover{height:55px;width:200px;background:black;color:white;font-size:15px ;border: none;}
+.b7{height:50px;width:160px;background:white;color: black;border: none;}
+.b7:hover{height:50px;width:160px;background:rgb(37, 37, 37);color: rgb(255, 255, 255);border: none;}
+.b8{height:50px;width:170px;background:white;color: black;border: none;}
+.b8:hover{height:50px;width:170px;background:rgb(37, 37, 37);color: rgb(255, 255, 255);border: none;}
+.b9{border: none;}
+.cursor{cursor: pointer;}
+
+
+
+
+@media(max-width:500px){
+    
+
+    .images21{background-image:url(photos/recycled-shoe-store-cta-image-bg.jpg);background-position: center ;background-size: cover;height:320px;}
+    .img1{height:70px;width:70px;}
+    .img2{margin-left:100px;margin-top:-30px ;}
+
+    .b4{height:40px;width:200px;background:#4b4d37;color:white;font-size:15px ;border: none;}
+    .b4:hover{height:40px;width:200px;background:black;color:white;font-size:15px ;border: none;}
+    .b7{height:40px;width:100%;background:white;color: black;border: none;}
+    .b7:hover{height:40px;width:100%;background:rgb(37, 37, 37);color: rgb(255, 255, 255);border: none;}
+    .b8{height:40px;width:100%;background:white;color: black;border: none;}
+    .b8:hover{height:40px;width:100%;background:rgb(37, 37, 37);color: rgb(255, 255, 255);border: none;}
+
+    .f1{font-size:40px;}
+    .f2{font-size:15px;}
+    .f3{font-size:15px;color: grey;}
+    .f4{font-size:15px;color: grey;}
+    .f5{font-size:30px;}
+    
+    .box1{height:40px;width:100%;outline:none ;}
+    .box2{height:100px;width:100%  ;}
+    .box11{height:50px;}
+}

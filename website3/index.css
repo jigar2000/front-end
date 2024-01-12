@@ -1,0 +1,53 @@
+.img1{background-image:url(photos/bg-01-free-img.jpg);height:1100px;background-position:center;background-size: cover;background-attachment: fixed;}
+.img2{background-image:url(photos/bg-heading-01-free-img.png);height:143px;width:550px;background-size: cover;margin-top:10px;}
+.img3{background-image:url(photos/94c621cb041a939df0536eab50d14cae.jpg);height:1200px;background-position:center;background-size: cover;background-attachment: fixed;}
+.img4{background-image:url(photos/bg-heading-02-free-img.png);height:65px;width:385px;background-position:center;background-size:cover  ;}
+.img5{height:720px;width:540px;margin-left:122px;}
+.img6{background-image:url(photos/bg-02-free-img.jpg);height:1000px;background-position:center;background-size:cover;background-attachment: fixed;}
+
+.shadow{height:100%;width: 100% ; background-image: linear-gradient(#204dd4b5, #00c6c382);}
+.shadow1{height:100%;width: 100% ; background-image: linear-gradient(#002db7e3,#26f1edb5);}
+.shadow2{height:100%;width: 100% ; background-image: linear-gradient(#26f1edb5, #002db7e3);}
+
+.box1{width:340px;}
+.box2{height:140px;}
+.box3{height:150px;}
+.box4{height:40px;}
+
+
+.hr1{border:1px solid rgb(153, 255, 0);width:60px;float:right;margin-top:20px;}
+.hr2{border:1px solid rgb(255, 255, 255);width:55px;margin-top:50px ;float: left;}
+.hr3{border:1px solid rgb(255, 255, 255);width:55px;margin-top:20px ;float: left;}
+
+.f1{font-size:28px ;color: white;}
+.f2{font-size:165px ;color: white;}
+.f3{color:white;font-size:175px ;float:left;margin-top:-50px;}
+.f4{color:white;font-size:38px;margin-top:90px ;}
+.f5{color:white;font-size:17px}
+.f6{color:white;font-size:50px;}
+.f7{color:white;font-size:20px ;}
+.f8{font-size:18px;color: white ;font-weight: 100;}
+.f9{color:white;font-size:50px;}
+.f10{font-size:27px;color: white;}
+.f11{font-size:18px;color: white;}
+.f12{font-size:40px;color: white ;}
+.f13{font-size:20px;color: white ;}
+.f14{color:white;font-size:18px ;}
+
+.b1{height:60px;width:200px;background:rgb(121, 202, 0);border:none;margin-top:20px;font-size:20px ;}
+.b1:hover{height:60px;width:200px;background:rgb(0, 195, 209);border:none;margin-top:20px;font-size:20px ;}
+
+.bo1{border:1px dashed white ;height:400px;}
+.bo3{border:1px dashed white ;height:450px;background:rgb(123, 194, 18);}
+.bo2{border:1px solid white;width:50px;}
+
+
+
+
+@media(max-width:500px){
+
+
+
+
+
+}

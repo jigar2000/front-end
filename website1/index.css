@@ -1,0 +1,157 @@
+/* #loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+  } */
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Add animation to "page content" */
+  .animate-bottom {
+    position: relative;
+    -webkit-animation-name: animatebottom;
+    -webkit-animation-duration: 1s;
+    animation-name: animatebottom;
+    animation-duration: 1s
+  }
+  
+  @-webkit-keyframes animatebottom {
+    from { bottom:-100px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+  }
+  
+  @keyframes animatebottom { 
+    from{ bottom:-100px; opacity:0 } 
+    to{ bottom:0; opacity:1 }
+  }
+  
+  #myDiv {
+    display: none;
+    
+  }
+  .loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 160px;
+    height: 160px;
+    margin: -76px 0 0 -76px;
+    color: #0000F4;
+    background: conic-gradient(from  165deg at top   ,#0000, currentColor 1deg 30deg,#0000 31deg) top,
+      conic-gradient(from   75deg at left  ,#0000, currentColor 1deg 30deg,#0000 31deg) left,
+      conic-gradient(from  -15deg at bottom,#0000, currentColor 1deg 30deg,#0000 31deg) bottom, 
+      conic-gradient(from -105deg at right ,#0000, currentColor 1deg 30deg,#0000 31deg) right;
+    background-size: 100% 50%,50% 100%;
+    -webkit-mask: radial-gradient(circle 10px,#0000 90%,#000);
+    background-repeat: no-repeat;
+    animation: sh1 1.5s infinite linear;
+  }
+  
+  @keyframes sh1 {
+   
+    100% {
+      transform: rotate(1turn)
+    }
+  }
+
+
+
+
+
+* {
+    font-family: 'Sora', sans-serif;
+}
+
+.br {
+    color: black;
+}
+
+.br:hover {
+    color: red;
+}
+
+.bxs{
+    border-radius: 30px;
+    box-shadow: 15px 15px 0px #241f33;margin-left:50px  ;
+}
+
+.box1{height:50px;width:120px;}
+.box2{height:50px;width:150px;}
+.button1{height:50px;width:200px;color: white;background: rgb(29, 0, 36);border-radius: 15px;}
+.box3{height:150px;width:150px;background: lightgreen  ;margin-top: 200px;}
+
+.b1{height: 70px;width: 70px;border-radius: 20px;color:black;border-color: black;}
+.b1:hover{height: 70px;width: 70px;border-radius: 20px;color:red;border-color: red;}
+.cl1{
+ color:    #241f33
+}
+.b2{height:60px;width:250px;color: #241f33;border-radius:15px;}
+.b2:hover{height:60px;width:250px;color:white;background: #241f33;border-radius:15px;}
+
+.box4{border-radius:25px;height:250px;border:2px solid black;}
+.box4:hover{border-radius:25px;box-shadow: 5px 5px 0px #241f33;height:250px;border:2px solid black;}
+
+.b3{height:50px;width:220px;color: white;border-color: white;background: #241f33 ;border-radius:10px ;border:1px solid white ;}
+.b3:hover{height:50px;width:220px;color: white;border-color: white;background: #ff3550 ;border-radius: 10px;border:1px solid white ;}
+
+.box5{height:250px;border-radius:20px;border:2px solid black ;}
+.box5:hover{height:250px;border-radius:20px;border:2px solid black ;box-shadow:5px 5px #241f33;}
+
+.eid{height:45px;width:450px;outline:none;border: none;background:rgb(252, 251, 236);}
+.fon{font-size:15px;margin:0;}
+
+.b4{height:45px;width:150px;color: white;background: #241f33;border-radius:10px;}
+.b4:hover{height:45px;width:150px;color: white;background: #f71432;border-radius:10px;}
+
+.fm1{font-size:15px;}
+.fm{font-size:75px;}
+.box6{height:150px;}
+.fm2{font-size:25px;margin: 0;}
+.fm3{font-size:15px;font-weight:20px ;}
+.box7{height:150px;}
+.box8{height:100px;}
+.box9{height:50px;}
+.box10{height:50px;}
+.ce{margin-left: 0;}
+.mr{margin-right:0 ;}
+.fm4{font-size:40px;color: #241f33;}
+
+@media(max-width:500px){
+    .fm{font-size:30px;}
+    .fm1{font-size:12px;}
+    .box6{height:50px;}
+    .fm2{font-size:20px;margin: 0;}
+    .fm3{font-size:12px;font-weight:10px;}
+    .box7{height:0px;}
+    .box8{height:50px;}
+    .b2{height:40px;width:200px;color: #241f33;border-radius:10px;}
+    .b2:hover{height:40px;width:200px;color:white;background: #241f33;border-radius:10px;}
+    .box4{border-radius:25px;height:150px;border:2px solid black;}
+    .box4:hover{border-radius:25px;box-shadow: 5px 5px 0px #241f33;height:150px;border:2px solid black;}
+    .box9{height:10px;}
+    .box10{height:30px;}
+    .b4{height:45px;width:100%;color: white;background: #241f33;border-radius:10px;}
+    .b4:hover{height:45px;width:100%;color: white;background: #f71432;border-radius:10px;}
+    .ce{margin-left: 160px;}
+    .mr{margin-right:200px;}
+    .fm4{font-size:25px;color: #241f33;}
+
+}
